@@ -61,7 +61,12 @@ header .logo
 {
   font-size: 23px;
   text-transform: uppercase;
-  color: #FFF;
+}
+
+.logo a
+{
+  text-decoration: none;
+  color: white;
 }
 
 .mobile
@@ -334,7 +339,7 @@ footer p
     width: 100%;
     z-index: 3;
     position: absolute;
-    display: block;
+    display: none;
     left: 0;
     top: 55px;
     text-align: center;
