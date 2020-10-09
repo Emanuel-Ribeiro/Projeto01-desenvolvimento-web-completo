@@ -66,49 +66,50 @@
       <h2 class="title">Especialidades</h2>
       <div class="w33 left box-especialidade">
         <h3><i class="fa fa-css3" aria-hidden="true"></i></h3>
-        <h3>CSS 3</h3>
+        <h4>CSS 3</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non odio metus. Mauris quis ligula non elit pulvinar sodales. Fusce hendrerit, felis at aliquet semper, nibh mi dignissim sapien, sit amet rhoncus urna tellus et lacus.</p>
       </div><!--div box-especialidade-->
       <div class="w33 left box-especialidade">
         <h3><i class="fa fa-html5" aria-hidden="true"></i></h3>
-        <h3>HTML 5</h3>
+        <h4>HTML 5</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non odio metus. Mauris quis ligula non elit pulvinar sodales. Fusce hendrerit, felis at aliquet semper, nibh mi dignissim sapien, sit amet rhoncus urna tellus et lacus.</p>
       </div><!--div box-especialidade-->
       <div class="w33 left box-especialidade">
         <h3><i class="fab fa-php" aria-hidden="true"></i></h3>
-        <h3>PHP</h3>
+        <h4>PHP</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non odio metus. Mauris quis ligula non elit pulvinar sodales. Fusce hendrerit, felis at aliquet semper, nibh mi dignissim sapien, sit amet rhoncus urna tellus et lacus.</p>
       </div><!--div box-especialidade-->
+      <div class="clear"></div><!--div clear-->
     </div><!--div center-->
   </section><!--section especialidades-->
 
   <section class="extras">
 
     <div class="center">
-      <div class="w50 left">
+      <div class="w50 left depoimentos-container">
         <h2 class="title">Certificados</h2>
         <div class="depoimento-single">
-          <p class="depoimento-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non odio metus. Mauris quis ligula non elit pulvinar sodales. Fusce hendrerit, felis at aliquet semper, nibh mi dignissim sapien, sit amet rhoncus urna tellus et lacus.</p>
           <p class="nome-autor">Titulo do certificado</p>
+          <p class="depoimento-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non odio metus. Mauris quis ligula non elit pulvinar sodales. Fusce hendrerit, felis at aliquet semper, nibh mi dignissim sapien, sit amet rhoncus urna tellus et lacus.</p>
         </div><!--div depoimento-single-->
         <div class="depoimento-single">
-          <p class="depoimento-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non odio metus. Mauris quis ligula non elit pulvinar sodales. Fusce hendrerit, felis at aliquet semper, nibh mi dignissim sapien, sit amet rhoncus urna tellus et lacus.</p>
           <p class="nome-autor">Titulo do certificado</p>
+          <p class="depoimento-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non odio metus. Mauris quis ligula non elit pulvinar sodales. Fusce hendrerit, felis at aliquet semper, nibh mi dignissim sapien, sit amet rhoncus urna tellus et lacus.</p>
         </div><!--div depoimento-single-->
         <div class="depoimento-single">
-          <p class="depoimento-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non odio metus. Mauris quis ligula non elit pulvinar sodales. Fusce hendrerit, felis at aliquet semper, nibh mi dignissim sapien, sit amet rhoncus urna tellus et lacus.</p>
           <p class="nome-autor">Titulo do certificado</p>
+          <p class="depoimento-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non odio metus. Mauris quis ligula non elit pulvinar sodales. Fusce hendrerit, felis at aliquet semper, nibh mi dignissim sapien, sit amet rhoncus urna tellus et lacus.</p>
         </div><!--div depoimento-single-->
       </div><!--div w50-->
-      <div class="clear"></div><!--div clear-->
-      <div class="w50 left">
+
+      <div class="w50 left servicos-container">
         <h2 class="title">Serviços</h2>
         <div class="servicos">
-          <ul>
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non odio metus. Mauris quis ligula non elit pulvinar sodales. Fusce hendrerit, felis at aliquet semper, nibh mi dignissim sapien, sit amet rhoncus urna tellus et lacus.</li>
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non odio metus. Mauris quis ligula non elit pulvinar sodales. Fusce hendrerit, felis at aliquet semper, nibh mi dignissim sapien, sit amet rhoncus urna tellus et lacus.</li>
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non odio metus. Mauris quis ligula non elit pulvinar sodales. Fusce hendrerit, felis at aliquet semper, nibh mi dignissim sapien, sit amet rhoncus urna tellus et lacus.</li>
-          </ul>
+        <ul>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non odio metus. Mauris quis ligula non elit pulvinar sodales. Fusce hendrerit, felis at aliquet semper, nibh mi dignissim sapien, sit amet rhoncus urna tellus et lacus.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non odio metus. Mauris quis ligula non elit pulvinar sodales. Fusce hendrerit, felis at aliquet semper, nibh mi dignissim sapien, sit amet rhoncus urna tellus et lacus.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non odio metus. Mauris quis ligula non elit pulvinar sodales. Fusce hendrerit, felis at aliquet semper, nibh mi dignissim sapien, sit amet rhoncus urna tellus et lacus.</li>
+        </ul>
         </div><!--div servicos-->
       </div><!--div w50-->
       <div class="clear"></div><!--div clear-->
