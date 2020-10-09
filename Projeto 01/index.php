@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
   <link rel="stylesheet" href="styles/style.css">
+  <script src="js/jquery.js"></script>
   <script src="https://kit.fontawesome.com/d85bd54e53.js" crossorigin="anonymous"></script>
   <title>Projeto 01</title>
 </head>
@@ -121,6 +122,13 @@
       <p>Todos os direitos reservados</p>
     </div><!--div center-->
   </footer>
+
+  <script>
+    $(function()
+    {
+      alert("Funcionando");
+    })
+  </script>
   
 </body>
 </html>
