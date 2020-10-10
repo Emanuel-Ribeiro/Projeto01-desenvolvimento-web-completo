@@ -1,3 +1,4 @@
+<?php include('config.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,8 +7,8 @@
   <meta name="keywords" content="palavras,chave,do,meu,site" >
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
-  <link rel="stylesheet" href="styles/style.css">
-  <script src="js/jquery.js"></script>
+  <link rel="stylesheet" href="<?php echo INCLUDE_PATH; ?>styles/style.css">
+  <script src="<?php echo INCLUDE_PATH; ?>js/jquery.js"></script>
   <script src="https://kit.fontawesome.com/d85bd54e53.js" crossorigin="anonymous"></script>
   <title>Projeto 01</title>
 </head>
@@ -18,19 +19,19 @@
       <div class="logo left"><a href="/Projeto01-desenvolvimento-web-completo/Projeto%2001/">Logomarca</a></div><!--div logo-->
       <nav class="desktop right">
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Sobre</a></li>
-          <li><a href="">Serviços</a></li>
-          <li><a href="">Contato</a></li>
+          <li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
+          <li><a href="<?php echo INCLUDE_PATH; ?>sobre">Sobre</a></li>
+          <li><a href="<?php echo INCLUDE_PATH; ?>servicos">Serviços</a></li>
+          <li><a href="<?php echo INCLUDE_PATH; ?>contato">Contato</a></li>
         </ul>
       </nav>
       <nav class="mobile right">
         <div class="botao-menu-mobile"><i class="fa fa-bars" aria-hidden="true"></i></div>
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Sobre</a></li>
-          <li><a href="">Serviços</a></li>
-          <li><a href="">Contato</a></li>
+          <li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
+          <li><a href="<?php echo INCLUDE_PATH; ?>sobre">Sobre</a></li>
+          <li><a href="<?php echo INCLUDE_PATH; ?>servicos">Serviços</a></li>
+          <li><a href="<?php echo INCLUDE_PATH; ?>contato">Contato</a></li>
         </ul>
       </nav>
     <div class="clear"></div><!--div clear-->
@@ -56,7 +57,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non odio metus. Mauris quis ligula non elit pulvinar sodales. Fusce hendrerit, felis at aliquet semper, nibh mi dignissim sapien, sit amet rhoncus urna tellus et lacus. Nunc tempor, turpis non consequat ultrices, ipsum augue commodo mauris, eu tincidunt metus ipsum non arcu. Donec placerat nisl nisl, quis posuere leo maximus quis. Nulla hendrerit lacus lacus, in imperdiet libero bibendum ac.</p>
     </div><!--div w50-->
     <div class="w50 left">
-        <img class="right" src="images/foto.jpg">
+        <img class="right" src="<?php echo INCLUDE_PATH; ?>images/foto.jpg">
     </div><!--div w50-->
     <div class="clear"></div><!--div clear-->
     </div><!--div center-->
@@ -123,7 +124,7 @@
     </div><!--div center-->
   </footer>
 
-  <script src="js/scripts.js"></script>
+  <script src="<?php echo INCLUDE_PATH; ?>js/scripts.js"></script>
   
 </body>
 </html>
