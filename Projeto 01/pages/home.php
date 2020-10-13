@@ -11,7 +11,7 @@
 
   <section class="descricao-autor">
     <div class="center">
-    <div class="w50 left">
+    <div id="sobre" class="w50 left">
         <h2>Emanuel Ribeiro</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non odio metus. Mauris quis ligula non elit pulvinar sodales. Fusce hendrerit, felis at aliquet semper, nibh mi dignissim sapien, sit amet rhoncus urna tellus et lacus. Nunc tempor, turpis non consequat ultrices, ipsum augue commodo mauris, eu tincidunt metus ipsum non arcu. Donec placerat nisl nisl, quis posuere leo maximus quis. Nulla hendrerit lacus lacus, in imperdiet libero bibendum ac.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non odio metus. Mauris quis ligula non elit pulvinar sodales. Fusce hendrerit, felis at aliquet semper, nibh mi dignissim sapien, sit amet rhoncus urna tellus et lacus. Nunc tempor, turpis non consequat ultrices, ipsum augue commodo mauris, eu tincidunt metus ipsum non arcu. Donec placerat nisl nisl, quis posuere leo maximus quis. Nulla hendrerit lacus lacus, in imperdiet libero bibendum ac.</p>
@@ -64,7 +64,7 @@
         </div><!--div depoimento-single-->
       </div><!--div w50-->
 
-      <div class="w50 left servicos-container">
+      <div id="servicos" class="w50 left servicos-container">
         <h2 class="title">Serviços</h2>
         <div class="servicos">
         <ul>
