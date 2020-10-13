@@ -14,6 +14,23 @@
 </head>
 <body>
 
+  <?php
+
+    $url = isset($_GET['url']) ? $_GET['url'] : 'home';
+
+    switch ($url) 
+    {
+      case 'sobre':
+        echo '<target target="sobre"/>';
+        break;
+      
+      case 'servicos':
+        echo '<target target="servicos"/>';
+        break;
+    }
+
+  ?>
+
   <header>
     <div class="center">
       <div class="logo left"><a href="/Projeto01-desenvolvimento-web-completo/Projeto%2001/">Logomarca</a></div><!--div logo-->
@@ -40,16 +57,21 @@
 
   <?php
 
-    $url = isset($_GET['url']) ? $_GET['url'] : 'home';
-
     if(file_exists('pages/'.$url.'.php'))
     {
       include('pages/'.$url.'.php');
     }
     else
     {
-      $pagina404 = true;
-      include('pages/404.php');
+      if($url != 'sobre' && $url != 'servicos')
+      {
+        $pagina404 = true;
+        include('pages/404.php');
+      }
+      else
+      {
+        include('pages/home.php');
+      }
     }
 
   ?>
@@ -61,6 +83,8 @@
   </footer>
 
   <script src="<?php echo INCLUDE_PATH; ?>js/scripts.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyClUgvwkt87ZiZuaNLzxJvQLatJLzFOkDA"></script>
+  <script src="<?php echo INCLUDE_PATH; ?>js/map.js"></script>
   
 </body>
 </html>
