@@ -1,13 +1,16 @@
-<section class="banner-principal">
-    <div class="overlay"></div><!--div overlay-->
-    <div class="center">
-      <form>
-        <h2>Qual é o seu melhor e-mail?</h2>
-        <input type="email" name="email" required>
-        <input type="submit" name="acao" value="Cadastrar!">
-      </form>
-    </div><!--div center-->
-  </section><!--banner principal-->
+<section class="banner-container">
+  <div style= "background-image: url('<?php echo INCLUDE_PATH; ?>images/bg.jpg')" class="banner-single"></div><!--banner single-->
+  <div style= "background-image: url('<?php echo INCLUDE_PATH; ?>images/sli.jpg')" class="banner-single"></div><!--banner single-->
+  <div style= "background-image: url('<?php echo INCLUDE_PATH; ?>images/slid.jpg')" class="banner-single"></div><!--banner single-->
+  <div class="overlay"></div><!--div overlay-->
+  <div class="center">
+    <form>
+      <h2>Qual é o seu melhor e-mail?</h2>
+      <input type="email" name="email" required>
+      <input type="submit" name="acao" value="Cadastrar!">
+    </form>
+  </div><!--div center-->
+</section><!--banner container-->
 
   <section class="descricao-autor">
     <div class="center">

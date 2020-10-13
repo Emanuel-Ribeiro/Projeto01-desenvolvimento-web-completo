@@ -85,6 +85,7 @@
   <script src="<?php echo INCLUDE_PATH; ?>js/scripts.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyClUgvwkt87ZiZuaNLzxJvQLatJLzFOkDA"></script>
   <script src="<?php echo INCLUDE_PATH; ?>js/map.js"></script>
+  <script src="<?php echo INCLUDE_PATH; ?>js/slider.js"></script>
   
 </body>
 </html>
