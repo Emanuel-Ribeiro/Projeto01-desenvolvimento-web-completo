@@ -1,6 +1,4 @@
-$(function(){
-
-	var map;
+var map;
 	
 	function initialize() {
 
@@ -74,10 +72,9 @@ $(function(){
 	    	}
 	}
 
-	setTimeout(function(){
-		initialize();
-		addMarker(-27.609959,-48.576585,'',"Minha casa",undefined,false);
+$(function(){
 
-	},1000);
+		initialize();
+		addMarker(-27.609959,-48.576585,'',"endereço",undefined,false);
 
 });

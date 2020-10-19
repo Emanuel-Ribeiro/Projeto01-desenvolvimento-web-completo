@@ -27,4 +27,18 @@ $(function()
     $('html,body').animate({scrollTop:divScroll},2000);
   }
 
+  carregarDinamico();
+  function carregarDinamico()
+  {
+    $('[realtime]').click(function()
+    {
+      var pagina = $(this).attr('realtime');
+
+      $('.container-principal').load('/Projeto01-desenvolvimento-web-completo/Projeto_01/pages/'+pagina+'.php');
+      initialize();
+      addMarker(-27.609959,-48.576585,'',"endereço",undefined,false);
+      return false;
+    })
+  }
+
 })
