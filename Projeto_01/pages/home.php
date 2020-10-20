@@ -1,83 +1,90 @@
 <section class="banner-container">
-  <div style= "background-image: url('<?php echo INCLUDE_PATH; ?>images/bg.jpg')" class="banner-single"></div><!--banner single-->
-  <div style= "background-image: url('<?php echo INCLUDE_PATH; ?>images/sli.jpg')" class="banner-single"></div><!--banner single-->
-  <div style= "background-image: url('<?php echo INCLUDE_PATH; ?>images/slid.jpg')" class="banner-single"></div><!--banner single-->
-  <div class="overlay"></div><!--div overlay-->
-  <div class="center">
-    <form>
-      <h2>Qual é o seu melhor e-mail?</h2>
-      <input type="email" name="email" required>
-      <input type="submit" name="acao" value="Cadastrar!">
-    </form>
-  </div><!--div center-->
-  <div class="bullets"></div><!--bullets-->
-</section><!--banner container-->
+	<div style="background-image: url('<?php echo INCLUDE_PATH; ?>images/bg-form.jpg');" class="banner-single"></div><!--banner-single-->
+	<div style="background-image: url('<?php echo INCLUDE_PATH; ?>images/bg-form2.jpg');" class="banner-single"></div><!--banner-single-->
+	<div style="background-image: url('<?php echo INCLUDE_PATH; ?>images/bg-form3.jpg');" class="banner-single"></div><!--banner-single-->
+	<div class="overlay"></div><!--overlay-->
+		<div class="center">
+		<form method="post">
+			<h2>Qual o seu melhor e-mail?</h2>
+			<input type="email" name="email" required />
+			<input type="hidden" name="identificador" value="form_home" />
+			<input type="submit" name="acao" value="Cadastrar!">
+		</form>
+		</div><!--center-->
+		<div class="bullets"></div><!--bullets-->
+</section><!--banner-principal-->
 
-  <section class="descricao-autor">
-    <div class="center">
-    <div id="sobre" class="w50 left">
-        <h2>Emanuel Ribeiro</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non odio metus. Mauris quis ligula non elit pulvinar sodales. Fusce hendrerit, felis at aliquet semper, nibh mi dignissim sapien, sit amet rhoncus urna tellus et lacus. Nunc tempor, turpis non consequat ultrices, ipsum augue commodo mauris, eu tincidunt metus ipsum non arcu. Donec placerat nisl nisl, quis posuere leo maximus quis. Nulla hendrerit lacus lacus, in imperdiet libero bibendum ac.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non odio metus. Mauris quis ligula non elit pulvinar sodales. Fusce hendrerit, felis at aliquet semper, nibh mi dignissim sapien, sit amet rhoncus urna tellus et lacus. Nunc tempor, turpis non consequat ultrices, ipsum augue commodo mauris, eu tincidunt metus ipsum non arcu. Donec placerat nisl nisl, quis posuere leo maximus quis. Nulla hendrerit lacus lacus, in imperdiet libero bibendum ac.</p>
-    </div><!--div w50-->
-    <div class="w50 left">
-        <img class="right" src="<?php echo INCLUDE_PATH; ?>images/foto.jpg">
-    </div><!--div w50-->
-    <div class="clear"></div><!--div clear-->
-    </div><!--div center-->
-  </section><!--descriçao-autor-->
+	<section class="descricao-autor">
+		<div class="center">
+		<div class="w50 left">
+			<h2><?php echo $infoSite['nome_autor']; ?></h2>
+			<p><?php echo $infoSite['descricao']; ?></p>
+		</div><!--w50-->
+		<div class="w50 left">
+			<!--Pegar imagem depois-->
+			<img class="right" src="<?php echo INCLUDE_PATH; ?>images/foto.jpg" />
+		</div><!--w50-->
+		<div class="clear"></div>
+		</div><!--center-->
+	</section><!--descricao-autor-->
 
-  <section class="especialidades">
-    <div class="center">
-      <h2 class="title">Especialidades</h2>
-      <div class="w33 left box-especialidade">
-        <h3><i class="fa fa-css3" aria-hidden="true"></i></h3>
-        <h4>CSS 3</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non odio metus. Mauris quis ligula non elit pulvinar sodales. Fusce hendrerit, felis at aliquet semper, nibh mi dignissim sapien, sit amet rhoncus urna tellus et lacus.</p>
-      </div><!--div box-especialidade-->
-      <div class="w33 left box-especialidade">
-        <h3><i class="fa fa-html5" aria-hidden="true"></i></h3>
-        <h4>HTML 5</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non odio metus. Mauris quis ligula non elit pulvinar sodales. Fusce hendrerit, felis at aliquet semper, nibh mi dignissim sapien, sit amet rhoncus urna tellus et lacus.</p>
-      </div><!--div box-especialidade-->
-      <div class="w33 left box-especialidade">
-        <h3><i class="fab fa-php" aria-hidden="true"></i></h3>
-        <h4>PHP</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non odio metus. Mauris quis ligula non elit pulvinar sodales. Fusce hendrerit, felis at aliquet semper, nibh mi dignissim sapien, sit amet rhoncus urna tellus et lacus.</p>
-      </div><!--div box-especialidade-->
-      <div class="clear"></div><!--div clear-->
-    </div><!--div center-->
-  </section><!--section especialidades-->
+	<section class="especialidades">
+		
+		<div class="center">
+			<h2 class="title">Especialidades</h2>
+			<div class="w33 left box-especialidade">
+					<h3><i class="<?php echo $infoSite['icone1']; ?>" aria-hidden="true"></i></h3>
+					<h4>CSS3</h4>
+					<p><?php echo $infoSite['descricao1']; ?></p>
+			</div><!--box-especialidade-->
+			<div class="w33 left box-especialidade">
+				<h3><i class="<?php echo $infoSite['icone2']; ?>" aria-hidden="true"></i></h3>
+				<h4>HTML5</h4>
+				<p><?php echo $infoSite['descricao2']; ?></p>
+			</div><!--box-especialidade-->
+			<div class="w33 left box-especialidade">
+				<h3><i class="<?php echo $infoSite['icone3']; ?>" aria-hidden="true"></i></h3>
+				<h4>JavaScript</h4>
+				<p><?php echo $infoSite['descricao3']; ?></p>
+			</div><!--box-especialidade-->
+			
+			<div class="clear"></div>
+		</div><!--center-->
 
-  <section class="extras">
+	</section><!--especialidades-->
 
-    <div class="center">
-      <div class="w50 left depoimentos-container">
-        <h2 class="title">Certificados</h2>
-        <div class="depoimento-single">
-          <p class="nome-autor">Titulo do certificado</p>
-          <p class="depoimento-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non odio metus. Mauris quis ligula non elit pulvinar sodales. Fusce hendrerit, felis at aliquet semper, nibh mi dignissim sapien, sit amet rhoncus urna tellus et lacus.</p>
-        </div><!--div depoimento-single-->
-        <div class="depoimento-single">
-          <p class="nome-autor">Titulo do certificado</p>
-          <p class="depoimento-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non odio metus. Mauris quis ligula non elit pulvinar sodales. Fusce hendrerit, felis at aliquet semper, nibh mi dignissim sapien, sit amet rhoncus urna tellus et lacus.</p>
-        </div><!--div depoimento-single-->
-        <div class="depoimento-single">
-          <p class="nome-autor">Titulo do certificado</p>
-          <p class="depoimento-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non odio metus. Mauris quis ligula non elit pulvinar sodales. Fusce hendrerit, felis at aliquet semper, nibh mi dignissim sapien, sit amet rhoncus urna tellus et lacus.</p>
-        </div><!--div depoimento-single-->
-      </div><!--div w50-->
+	<section class="extras">
 
-      <div id="servicos" class="w50 left servicos-container">
-        <h2 class="title">Serviços</h2>
-        <div class="servicos">
-        <ul>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non odio metus. Mauris quis ligula non elit pulvinar sodales. Fusce hendrerit, felis at aliquet semper, nibh mi dignissim sapien, sit amet rhoncus urna tellus et lacus.</li>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non odio metus. Mauris quis ligula non elit pulvinar sodales. Fusce hendrerit, felis at aliquet semper, nibh mi dignissim sapien, sit amet rhoncus urna tellus et lacus.</li>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non odio metus. Mauris quis ligula non elit pulvinar sodales. Fusce hendrerit, felis at aliquet semper, nibh mi dignissim sapien, sit amet rhoncus urna tellus et lacus.</li>
-        </ul>
-        </div><!--div servicos-->
-      </div><!--div w50-->
-      <div class="clear"></div><!--div clear-->
-    </div><!--div center-->
-  </section><!--section extras-->
+		<div class="center">
+			<div id="depoimentos" class="w50 left depoimentos-container">
+				<h2 class="title">Depoimentos dos nossos clientes</h2>
+				<?php
+					$sql = MySql::conectar()->prepare("SELECT * FROM `tb_site.depoimentos` ORDER BY order_id ASC LIMIT 3");
+					$sql->execute();
+					$depoimentos = $sql->fetchAll();
+					foreach ($depoimentos as $key => $value) {
+				?>
+				<div class="depoimento-single">
+					<p class="depoimento-descricao">"<?php echo $value['depoimento']; ?>"</p>
+					<p class="nome-autor"><?php echo $value['nome']; ?> - <?php echo $value['data']; ?></p>
+				</div><!--depoimento-single-->
+				<?php } ?>
+			</div><!--w50-->
+			<div id="servicos" class="w50 left servicos-container">
+				<h2 class="title">Serviços</h2>
+				<div class="servicos">
+				<ul>
+					<?php
+					$sql = MySql::conectar()->prepare("SELECT * FROM `tb_site.servicos` ORDER BY order_id ASC LIMIT 3");
+					$sql->execute();
+					$servicos = $sql->fetchAll();
+					foreach ($servicos as $key => $value) {
+					?>
+					<li><?php echo $value['servico']; ?></li>
+					<?php } ?>
+				</ul>
+				</div><!--servicos-->
+			</div><!--w50-->
+			<div class="clear"></div>
+		</div><!--center-->
+	</section><!--extras-->

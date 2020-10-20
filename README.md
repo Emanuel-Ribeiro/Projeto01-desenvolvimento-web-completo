@@ -1,4 +1,4 @@
 # Projeto01-desenvolvimento-web-completo
-Projeto 01 do curso de desenvolvimento completo da Danki code
+Projeto 01 
 
-teste de commit
+projeto completo pra poupar trabalho XD
